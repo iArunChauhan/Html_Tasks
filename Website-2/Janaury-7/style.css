@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Lato", sans-serif;
+}
+
+.playfair-font{
+font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+}
+
+.lato-font{
+ font-family: "Lato", sans-serif;
+}
+
+.head-button{
+    background-color: #fb5607;
+}
+.hero-section-index {
+    height: auto;
+    width: 100%;
+}
+
+.nav-item>a{
+    color: white;
+    font-size: 1rem;
+}
+
+.main-container-hero-section-index {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url('/assests/images/home-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main-container-hero-section-index::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0,18,25,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.index-hero-section-content{
+
+    padding-block: 5rem;
+    padding-bottom: 9rem;
+    padding-inline: 2rem;
+
+
+}
+
+
