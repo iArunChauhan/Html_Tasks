@@ -57,5 +57,65 @@ font-family: "Playfair", serif;
 
 
 }
+.packages{
+
+    
+
+}
+.package-card{
+
+}
+.package-card>img{
+
+    
+    border-radius:80px;
+    
+}
+.packages-details{
+
+  width:60%;
+  
+
+  background: rgb(255, 253, 252); 
+  
+  
+  border-radius:50%;
+
+
+}
+.pacakage-content{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap:1rem
+}
+.pacakage-content>h4{
+
+    color: #fb5607;
+    border-radius:40px;
+    
+    
+
+}
+
+
+
+.continant{
+
+  text-transform: uppercase;
+
+     color: #fb5607;
+
+     letter-spacing:1px;
+
+}
+
+.price{
+
+
+}
+
 
 
